@@ -81,17 +81,24 @@ router.patch('/:id',
             return res.status(404).json({ success: false, error: 'User not found' });
         }
 
-        const emailExists = users.some(user => user.email === email && user.id !== userId);
-        if (emailExists) {
-            return res.status(409).json({
-                success: false,
-                errors: { email: 'Email already in use by another user' }
-            });
+        if (email) {
+            const emailExists = users.some(user => user.email === email && user.id !== userId);
+            if (emailExists) {
+                return res.status(409).json({
+                    success: false,
+                    errors: { email: 'Email already in use by another user' }
+                });
+            }
+            users[userIndex].email = email;
         }
 
-        users[userIndex].name = name;
-        users[userIndex].email = email;
-        users[userIndex].age = parseInt(age, 10);
+        if (name) {
+            users[userIndex].name = name;
+        }
+
+        if (age !== undefined) {
+            users[userIndex].age = parseInt(age, 10);
+        }
 
         res.json({ success: true, data: users[userIndex] });
     }
