@@ -14,7 +14,7 @@ Proyek ini dibangun menggunakan **Node.js** dan framework **Express.js**, serta 
 
 ---
 
-## 🚀 Endpoint Aktif (Live URL)
+## 🚀 URL API (Endpoint Live)
 
 API ini telah berhasil di-deploy menggunakan Vercel dan dapat diakses secara publik melalui URL di bawah ini:
 
@@ -33,6 +33,13 @@ API ini memiliki 3 endpoint utama sesuai dengan persyaratan tes.
 
 <br>
 
+**Validasi:**
+* **`name`**: Wajib diisi, minimal 2 karakter.
+* **`email`**: Wajib diisi, harus dalam format email yang valid dan unik.
+* **`age`**: Wajib diisi, harus berupa angka.
+
+<br>
+
 ### Contoh Request Body untuk `POST /users`
 
 Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti berikut:
@@ -42,12 +49,9 @@ Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti ber
     "name": "Nama Pengguna",
     "email": "email@contoh.com",
     "age": 25
-}```
+}
+```
 
-**Validasi:**
-* **`name`**: Wajib diisi, minimal 2 karakter.
-* **`email`**: Wajib diisi, harus dalam format email yang valid dan unik.
-* **`age`**: Wajib diisi, harus berupa angka.
 
 ## 💻 Cara Menjalankan Secara Lokal
 
@@ -79,4 +83,5 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
     Server akan berjalan dan bisa diakses di `http://localhost:3000`.
 
 GitHub: https://github.com/KelvinJP543
+
 
