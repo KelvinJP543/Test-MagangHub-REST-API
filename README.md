@@ -40,7 +40,7 @@ API ini memiliki 3 endpoint utama sesuai dengan persyaratan tes.
 
 <br>
 
-### Contoh Request Body untuk `POST /users`
+### Contoh Request Body untuk `POST/users`
 
 Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti berikut:
 
@@ -52,7 +52,7 @@ Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti ber
 }
 ```
 
-
+---
 ## 💻 Cara Menjalankan Secara Lokal
 
 Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah memiliki Node.js dan npm ter-install. Kemudian, ikuti langkah-langkah berikut:
@@ -82,6 +82,11 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
 
     Server akan berjalan dan bisa diakses di `http://localhost:3000`.
 
-GitHub: https://github.com/KelvinJP543
+---
+
+## 👨‍💻 Author
+
+* **Kelvin Jaya Pratama**
+* **GitHub**: [https://github.com/KelvinJP543](https://github.com/KelvinJP543)
 
 
