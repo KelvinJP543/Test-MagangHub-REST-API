@@ -33,13 +33,6 @@ API ini memiliki 3 endpoint utama sesuai dengan persyaratan tes.
 
 <br>
 
-**Validasi:**
-* **`name`**: Wajib diisi, minimal 2 karakter.
-* **`email`**: Wajib diisi, harus dalam format email yang valid dan unik.
-* **`age`**: Wajib diisi, harus berupa angka.
-
-<br>
-
 ### Contoh Request Body untuk `POST/users`
 
 Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti berikut:
@@ -51,6 +44,11 @@ Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti ber
     "age": 25
 }
 ```
+
+**Validasi:**
+* **`name`**: Wajib diisi, minimal 2 karakter.
+* **`email`**: Wajib diisi, harus dalam format email yang valid dan unik.
+* **`age`**: Wajib diisi, harus berupa angka.
 
 ---
 ## 💻 Cara Menjalankan Secara Lokal
@@ -88,5 +86,6 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
 
 * **Kelvin Jaya Pratama**
 * **GitHub**: [https://github.com/KelvinJP543](https://github.com/KelvinJP543)
+
 
 
