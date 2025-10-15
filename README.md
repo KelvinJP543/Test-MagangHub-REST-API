@@ -8,7 +8,7 @@
 
 ## 📝 Deskripsi Proyek
 
-Ini adalah REST API sederhana yang dibuat sebagai submission untuk tes teknis. API ini menyediakan fitur dasar untuk manajemen pengguna (CRUD - Create & Read) dengan data yang disimpan sementara di memori server (in-memory array).
+Ini adalah REST API sederhana yang dibuat sebagai submission untuk tes teknis. API ini menyediakan fitur dasar untuk manajemen pengguna (CRUD - Create, Read, Update & Delete) dengan data yang disimpan sementara di memori server (in-memory array).
 
 Proyek ini dibangun menggunakan **Node.js** dan framework **Express.js**, serta dilengkapi dengan validasi input menggunakan `express-validator`.
 
@@ -131,6 +131,7 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
 
 * **Kelvin Jaya Pratama**
 * **GitHub**: [https://github.com/KelvinJP543](https://github.com/KelvinJP543)
+
 
 
 
