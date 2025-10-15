@@ -57,8 +57,7 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
 
 1.  **Clone repository ini**
     ```bash
-    # Ganti dengan URL repository GitHub Anda
-    git clone [https://github.com/KelvinJP543/Test-MagangHub-REST-API.git](https://github.com/KelvinJP543/Test-MagangHub-REST-API.git)
+    git clone https://github.com/KelvinJP543/Test-MagangHub-REST-API.git
     ```
 
 2.  **Masuk ke direktori proyek**
@@ -67,25 +66,43 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
     ```
 
 3.  **Install semua dependencies yang dibutuhkan**
-    Perintah ini akan mengunduh semua paket yang tercantum di `package.json`.
     ```bash
     npm install
     ```
 
-4.  **Jalankan server development**
-    Perintah ini akan menjalankan skrip `start` dari `package.json`.
+4.  **(Khusus Lokal) Aktifkan Server**
+    Buka file `index.js` dan hapus tanda komentar (`/*` dan `*/`) pada blok kode `app.listen()` di bagian bawah file.
+
+    **Ubah ini:**
+    ```javascript
+    /*
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`Server running at http://localhost:${PORT}`);
+    });
+    */
+    ```
+    **Menjadi ini:**
+    ```javascript
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`Server running at http://localhost:${PORT}`);
+    });
+    ```
+
+5.  **Jalankan server**
     ```bash
     npm start
     ```
-
-    Server akan berjalan dan bisa diakses di `http://localhost:3000`.
-
+    Server sekarang akan berjalan dengan benar di `http://localhost:3000`.
+    
 ---
 
 ## 👨‍💻 Author
 
 * **Kelvin Jaya Pratama**
 * **GitHub**: [https://github.com/KelvinJP543](https://github.com/KelvinJP543)
+
 
 
 
