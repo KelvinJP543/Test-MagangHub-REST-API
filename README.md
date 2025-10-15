@@ -42,7 +42,7 @@ Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti ber
     "name": "Nama Pengguna",
     "email": "email@contoh.com",
     "age": 25
-}
+}```
 
 **Validasi:**
 * **`name`**: Wajib diisi, minimal 2 karakter.
@@ -79,3 +79,4 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
     Server akan berjalan dan bisa diakses di `http://localhost:3000`.
 
 GitHub: https://github.com/KelvinJP543
+
