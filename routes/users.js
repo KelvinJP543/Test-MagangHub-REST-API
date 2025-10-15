@@ -64,7 +64,7 @@ router.post('/',
 );
 
 // Mengubah data pengguna berdasarkan id pengguna
-router.put('/:id',
+router.patch('/:id',
     param('id').isUUID().withMessage('Invalid ID format'),
     body('name').optional().isLength({ min: 2 }).withMessage('Name must have at least 2 characters'),
     body('email').optional().isEmail().withMessage('Email must be valid'),

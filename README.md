@@ -30,7 +30,7 @@ API ini memiliki 3 endpoint utama sesuai dengan persyaratan tes.
 | `GET` | `/users` | Menampilkan seluruh daftar pengguna. |
 | `GET` | `/users/:id` | Menampilkan detail pengguna berdasarkan `id` pengguna. |
 | `POST` | `/users` | Menambahkan pengguna baru ke dalam daftar pengguna. |
-| `PUT` | `/users/:id` | Memperbarui data pengguna berdasarkan `id` pengguna. |
+| `PATCH` | `/users/:id` | Memperbarui data pengguna berdasarkan `id` pengguna. |
 | `DELETE`| `/users/:id` | Menghapus data pengguna berdasarkan `id` pengguna. |
 
 <br>
@@ -54,7 +54,7 @@ Untuk menambahkan pengguna baru, kirimkan request dengan format JSON seperti ber
 
 <br>
 
-### Contoh Request Body untuk `PUT/users/:id`
+### Contoh Request Body untuk `PATCH/users/:id`
 
 Untuk memperbarui data pengguna, Anda hanya perlu mengirimkan property yang ingin diubah. Property lain yang tidak dikirimkan tidak akan terpengaruh.
 
