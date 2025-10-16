@@ -23,7 +23,7 @@ https://kelvin-test-maganghub-api.vercel.app
 
 ## 📖 Fitur & Dokumentasi API
 
-API ini memiliki 3 endpoint utama sesuai dengan persyaratan tes.
+API ini memiliki 5 endpoint utama.
 
 | Method | Endpoint | Deskripsi |
 | :--- | :--- | :--- |
@@ -131,6 +131,7 @@ Jika Anda ingin menjalankan proyek ini di komputer Anda, pastikan Anda sudah mem
 
 * **Kelvin Jaya Pratama**
 * **GitHub**: [https://github.com/KelvinJP543](https://github.com/KelvinJP543)
+
 
 
 
